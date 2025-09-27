@@ -1,67 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Resume</title>
+  <meta charset="UTF-8">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="./Images/ProfilePic.png" alt="Profile Picture" class="profile-pic">
     <h1>Rakshit Gupta</h1>
-    <img src="./Images/ProfilePic.png" height="200" alt="Profile Picture"/>
-    <h2>Summary</h2>
+    <h2>Game Level Designer & Developer</h2>
+    <p class="tagline">Crafting immersive gameplay experiences with Unity & Unreal Engine</p>
+  </header>
+
+  <!-- Summary -->
+  <section class="section about">
+    <h2>About Me</h2>
     <p>
-        Passionate game level designer with a strong foundation in computer science and a dedication to crafting immersive gameplay experiences. Proficient in Unreal Engine, Unity, and C#, with expertise in performance optimization, level design, and interactive storytelling. Adept at collaborating in team environments and leveraging Git for seamless development workflows.
+      Passionate game level designer with a strong foundation in computer science and a dedication to crafting immersive gameplay experiences. Proficient in Unreal Engine, Unity, and C#, with expertise in performance optimization, level design, and interactive storytelling.
     </p>
-<hr />
-    <h2>Education</h2>
-    <h3>Secondary Education</h3>
-    <ul>
-        <li> La Martiniere College Lucknow Apr 2018 - May 2019</li>
-    </ul>
-    <h3>Higher Secondary Education</h3>
-    <ul>
-        <li> La Martiniere College Lucknow Apr 2020 - Jul 2021</li>
-    </ul>
-    <h3>Bachelor of Technology with Specializtion in Gaming Technology</h3>
-    <ul>
-        <li>SRM Institute of Science and Technology Chennai  Sep 2021 - May 2025</li>
-    </ul>
-    <hr />
-    <h2>Work Experience</h2>
-    <ul>
-        <li>
-            <h3> Jabsz Gaming Studios LLP - Unity Game Developer</h3>
-            <p> Sep 2024 - Present</p>
-            <ul>
-                <li>Optimized game performance, reducing level loading times by 30% through C# enhancements.</li>
-                <li>Designed and implemented engaging game levels with a focus on player interactions.</li>
-                <li> Managed and updated asset repositories, ensuring smooth team collaboration using Git and GitHub.</li>
-            </ul>
-        </li>
-    </ul>
-    <hr />
+  </section>
+
+  <!-- Skills -->
+  <section class="section skills">
     <h2>Skills</h2>
-    <ul>
-        <li>Unity 5</li>
-        <li>Unreal Engine 5</li>
-        <li>GitHub</li>
-        <li>C#</li>
-        <li>Html</li>
-        <li>VSCode</li>
-        <li>CSS</li>
-    </ul>
-    <hr />
+    <div class="skill-grid">
+      <span>Unity 5</span>
+      <span>Unreal Engine 5</span>
+      <span>Git & GitHub</span>
+      <span>C#</span>
+      <span>HTML & CSS</span>
+      <span>VSCode</span>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>Unity Game Developer — Jabsz Gaming Studios LLP</h3>
+      <p class="date">Sep 2024 - Present</p>
+      <ul>
+        <li>Optimized game performance, reducing level loading times by 30%.</li>
+        <li>Designed engaging levels with a focus on player interaction.</li>
+        <li>Managed assets and team collaboration using Git & GitHub.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section education">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>B.Tech in Gaming Technology</h3>
+      <p class="date">SRM Institute of Science and Technology, Chennai<br>Sep 2021 - May 2025</p>
+    </div>
+    <div class="card">
+      <h3>Higher Secondary — La Martiniere College Lucknow</h3>
+      <p class="date">Apr 2020 - Jul 2021</p>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="section certs">
     <h2>Certifications</h2>
     <ul>
-        <li>Unreal Engine 5: The Complete Beginner's Course - Udemy (Apr 2024)</li>
-        <li>Complete NodeJS Developer - Udemy (Oct 2024)</li>
+      <li>Unreal Engine 5: The Complete Beginner's Course - Udemy (Apr 2024)</li>
+      <li>Complete NodeJS Developer - Udemy (Oct 2024)</li>
     </ul>
-    <hr />
-    <h2>Others</h2>
-    <ul>
-        <li><a href="./Contact.html">About Me</a></li>
-    </ul>
-    <footer>
-    <p>© Rakshit Gupta. All rights reserved</p>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact">
+    <h2>Get in Touch</h2>
+    <p>📧 <a href="mailto:rakshitgupta503@gmail.com">rakshitgupta503@gmail.com</a></p>
+    <p>🔗 <a href="https://rakshitgup.github.io/html.porfolio/" target="_blank">GitHub</a> | <a href="./Contact.html">More About Me</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Rakshit Gupta. All rights reserved.</p>
   </footer>
 </body>
 </html>
